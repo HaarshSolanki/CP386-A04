@@ -7,11 +7,19 @@ This project is a part of an assignment of Operating System course(CP 386).
 
 # Individual contribution
 
+int main(int argc, char *argv[]); //Harsh
+void print_process(struct Process *process); //Tirth
+void release_process(struct Process *processes[], struct Process *process_full[], char *process); //Harsh
+int insert_plist(struct Process *processes[], struct Process *process_full[], char *process, int size, int index); //Harsh
+int best_fit(struct Process *processes[], int size); //Tirth
+int worst_fit(struct Process *processes[], int size); //Tirth
+
+
 # Features
 # Tests
 # Code Example
 # Authors
-# Credits
+
 
 # License
 Copyright (c) 2022 Harsh Solanki and Tirth Desai
